@@ -42,6 +42,8 @@ function getTopping(runningTotal, text1) {
         }
     }
     var toppingCount = selectedTopping.length;
+    //The original code allowed for one free topping but I think
+    //we all deserve two free toppings. 
     if (toppingCount > 2) {
         toppingTotal = (toppingCount - 2);
     } else {
